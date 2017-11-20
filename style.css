@@ -1,0 +1,846 @@
+/*
+Theme Name: Cascade Orienteering
+Theme URI: 
+Author: Rebecca Jensen
+Author URI: 
+Description: A theme built for Cascade Orienteering Club
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: 
+Text Domain: Cascade Orienteering
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+
+/*=====TYPOGRAPHY=====*/
+
+
+p {
+  font-family: "Lato", sans-serif;
+  font-size: 1.1em;
+  color:#2d2d2d;
+}
+
+.small p {
+  font-size: 0.9em;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 3em;
+  color: #2d2d2d;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+  color: #2d2d2d;
+}
+h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5em;
+  color: #2d2d2d;
+  margin-top: 15px;
+  margin-bottom: 7px;
+}
+h4 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.2em;
+  color: #2d2d2d;
+}
+
+td, th {
+  font-family: "Lato", sans-serif;
+  padding: 5px;
+  font-size: 1.1em;
+}
+
+td > a {
+  color: #007CA7;
+}
+
+#until-date {
+  font-size: 1em;
+}
+
+a {
+  font-family: "Lato", sans-serif;
+  color: #2a9ec6;
+}
+
+a:hover {
+  color: #1c5b8e;
+  text-decoration: none;
+}
+
+#all-link {
+  margin-top: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+li {
+  font-family: "Lato", sans-serif;
+  font-size: 1.1em;
+  color:#2d2d2d;
+}
+
+.red {
+  color: #d51f26;
+}
+
+/*=== TOP NAV === */
+
+#logo-top-left {
+  padding-top: 20px;
+  max-width: 200px;
+}
+
+
+/*====???? A gray background appears behind links after clicked ????===*/
+#top-nav li a:visited {
+  color: #333;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#top-nav li a {
+  color: #333;
+  font-family: "Lato";
+  font-size: 1em;
+}
+
+#top-nav li a:hover {
+  color: #d51f26;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#top-nav li a:active {
+  color: #b5212c;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+
+/*=== GLOBAL NAV === */
+.navbar-inverse .navbar-nav>li>a {
+	color: #e1e1e1;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #fff;
+	background-color: #363636;
+}
+
+.current-menu-item > a {
+	background: #000;
+}
+
+.navbar {
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+
+
+
+/*===== LOCAL MENU =========*/
+ul.local-nav li {
+  display: inline-block;
+  color: #333;
+  padding: 20px;
+}
+
+ul.local-nav {
+  padding-left: 0px;
+}
+
+
+
+/*===== GENERAL MARGINS =====*/
+
+#no-mrg {
+  margin: 0px;
+}
+
+#no-pad {
+  padding-left: 0px;
+  padding-right: 0px;
+} /* kills the Bootstrap auto-pad */
+
+.no-pad-bottom {
+  padding-bottom: 0px;
+}
+
+.no-pad-left {
+  padding-left: 0px;
+}
+
+.no-pad-right {
+  padding-right: 0px;
+}
+
+.some-pad {
+  padding: 15px;
+}
+
+.add-pad {
+  padding: 40px;
+}
+
+.more-pad-right {
+  padding-right: 40px;
+}
+
+.sm-pad-right {
+  padding-right: 20px;
+}
+
+.more-pad-left {
+  padding-left: 40px;
+}
+
+.no-margin {
+  margin: 0px;
+}
+
+.no-mrg-bottom {
+  margin-bottom: 0px;
+}
+
+.xl-mrg-bottom {
+  margin-bottom: 100px;
+}
+
+.l-mrg-bottom {
+  margin-bottom: 50px;
+}
+
+.lg-mrg-bottom {
+  margin-bottom: 60px;
+} 
+
+.md-mrg-bottom {
+  margin-bottom:40px;
+}
+
+.sm-mrg-bottom {
+  margin-bottom:20px;
+}
+
+.xs-mrg-top {
+  margin-top: 15px;
+}
+
+.sm-mrg-top {
+  margin-top:20px;
+} 
+
+.md-mrg-top {
+  margin-top: 40px;
+}
+
+.lg-mrg-top {
+	margin-top: 60px;
+}
+
+
+.lt-blue-bg {
+  background-color: #d3ebef;
+}
+
+.shadow img {
+  -webkit-box-shadow: 0px 3px 4px -2px rgba(0,0,0,0.4);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    0px 3px 4px -2px rgba(0,0,0,0.4);  /* Firefox 3.5 - 3.6 */
+  box-shadow:         0px 3px 4px -2px rgba(0,0,0,0.4);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+/*======== GENERAL IMAGES ===========*/
+img.wide {
+  width: 100%;
+  height: auto;
+}
+
+button.wide {
+  width: 100%;
+}
+
+.img-container img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+/*======== GENERAL BUTTONS ==========*/
+
+button {
+  background-color: #69bbd7;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.3em;
+  border-radius: 6px;
+}
+
+button:hover {
+  background-color: #2a9ec6;
+}
+
+
+
+
+/*==== SPLASH aka HERO image and message ======= */
+
+/*.splash img {
+  width: 100%;
+  height: auto;
+  position: relative;
+
+}
+.splash h2 {
+  width: 85%;
+  color: white;
+  margin-top: 0px;
+}
+.splash p {
+  color: #000;
+}
+
+.splash a:hover {
+  color: red;
+}
+
+.splash {
+  position: relative;
+}*/
+
+/*div.dark {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: 15px 15px 5px 15px;
+  background-color: rgba(0,0,0,0.5);
+}
+*/
+
+.welcome {
+  background-color: #e6e6e6;
+  padding: 10px;
+}
+
+.welcome > p {
+  margin-bottom: 0px;
+}
+
+
+/*===== URGENT ANNOUNCEMENTS ====== */
+.urgent {
+  background-color: #fef248;
+}
+
+
+
+/*===== TABLES ====== */
+
+tr {
+  background-color: #eaf5f9;
+}
+
+tr#column-titles {
+  background-color: #94cee2;
+}
+
+
+
+
+/*=====UPCOMING EVENTS=====*/
+
+hr {
+  border-width: 5px;
+  border-color: #2d2d2d;
+  margin: 0px auto;
+}
+
+ul#upcoming-events {
+  padding-left: 0px;
+}
+
+#upcoming-events li {
+  color: #2d2d2d;
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 15px;
+}
+/*=====NEWS on the front page=====*/
+
+.news-img img {
+  max-width: 100%;
+  height: auto;
+
+
+}
+
+#news-text {
+  width: 100%;
+  padding: 10px;
+}
+
+/*=====RECENT RESULTS=====*/
+
+#recent-wrap {
+  padding: 10px;
+}
+
+button#lg-results-btn {
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-right:20px;
+  background-color: #d51f26;
+}
+
+button#lg-results-btn:hover {
+  background-color: #B10305;
+}
+
+button#lg-sr-btn {
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-right:20px;
+  background-color: #E57276;
+}
+
+
+button#lg-all-btn {
+  width: 100%;
+  margin-bottom: 60px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+/*button#lg-sr-btns {
+  width: 100%;
+  background-color: #E57276;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+button#lg-sr-btns:hover {
+  background-color: #CD3236;
+}*/
+
+button#about-btn {
+  width: 100%;
+  margin-bottom: 40px;
+  padding: 10px;
+  background-color: #d32026;
+}
+
+
+/*== HIDDEN MESSAGE ==*/
+.hidden-quote p {
+  color: #305c99;
+  font-style: italic;
+  padding: 35px;
+  background-color: #ebebeb;
+}
+
+/*===== SOCIAL =====*/
+.social {
+  padding: 0px 30px;
+  margin-bottom: 60px;
+}
+
+div.social img, div.social button {
+  display: block;
+  margin: 0 auto;
+}
+
+div.social h3, div.social p {
+  text-align: center;
+}
+
+.social-button {
+  max-width: 150px;
+}
+
+/*====SIDE BAR====*/
+.sidebar {
+  background-color: #e6e6e6;
+/*  padding-bottom: 100%;*/
+}
+
+div.sidebar p, div.sidebar h3, div.sidebar ul {
+	text-align: center;
+}
+
+div.widget {
+	margin-bottom: 60px;
+	margin-top: 60px;
+}
+
+div.social-widget > div.widget {
+  margin-bottom: 0px;
+}
+
+div.sidebar li {
+	color: #464646;
+	list-style-type: none;
+}
+
+.sidebar-widgets {
+  padding-bottom: 100%;
+}
+
+/*==== ANCHOR MENU ===== */
+
+.anchor > li {
+  font-size: 1.2em;
+}
+
+/*==== GENERAL TITLES ====*/
+
+.page-header {
+	border-bottom: 0px;
+  margin-top: 0px;
+}
+
+
+/*==== NEWS (the blog) ==== */
+
+article.post {
+	margin-bottom: 80px;
+}
+
+hr.thin {
+  border-width: 1px;
+  border-color: #b7b7b7;
+  margin-bottom: 10px;
+}
+
+.post-categories {
+  text-align: left;
+  list-style-type: none;
+}
+
+p.post-info {
+  color: #a8a8a8;
+}
+
+.tagcloud > a {
+  display: block;
+  text-align: center;
+}
+
+.tag > a {
+  text-transform: uppercase;
+}
+
+
+/*====== ALL EVENTS PAGE ======== */
+
+.events-menu {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+h5.events-menu {
+  margin-bottom: 0px;
+}
+
+ul.event-groups > li {
+  padding: 0px 5px 12px 5px;
+}
+
+.series > p {
+  margin: 5px 10px 5px 0px;
+  display: inline-block;
+}
+
+
+
+/*====== SINGLE EVENT PAGE ======== */
+
+.event-subhead h3 {
+	text-align: left;
+}
+
+.course-help {
+	background-color: rgba(42, 159, 198, 0.15);
+  padding: 15px;
+}
+
+.caps-title {
+  text-transform: uppercase;
+}
+
+.map-image-event img {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+
+/*====== ALL MAPS PAGE ======== */
+
+.map-image-sm img {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+}
+
+div.map-image-sm > img {
+  display: block;
+  margin: auto;
+}
+
+.horizontal-tag > li {
+  display: inline-block;
+}
+
+.sidebar > li.cat-item > a {
+  display: block;
+}
+
+.cat-item-1 {
+  display:none;
+} /* hides "Uncategorized" */
+
+ul.wp-tag-cloud {
+  padding-left: 0px;
+}
+
+
+/*====== SINGLE MAP PAGE ======== */
+
+.venue-rating {
+  background-color: #89dc97;
+}
+
+.venue-rating h3, .venue-rating p {
+  padding: 5px 15px;
+}
+
+.two-maps {
+  background-color: #ebebeb;
+}
+
+.map-image-md img {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+}
+
+.legend-help {
+  background-color: #d4d4d4;
+  padding: 15px;
+}
+
+.perm-course {
+  background-color: rgb(255, 221, 221);
+}
+
+
+
+/*====== SERIES PAGE ======== */
+
+.widget li {
+  list-style: none;
+}
+
+#menu-series-menu > .current-menu-item a {
+  background-color: #e6e6e6;
+}
+
+#menu-series-menu li, #menu-special-events-menu li {
+  padding: 10px 0px;
+  margin-left: -40px;
+}
+
+.training-list p, .world-list p {
+  padding: 10px 0px;
+  margin: 0px;
+}
+
+/*====== SINGLE CONTACT POST ======== */
+
+
+/*====== INFO AND PLAIN PAGE ======== */
+
+.semi-wide {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+/*===== RESULTS =====*/
+/*.results a, .routegadget a, .splits a {
+  color: #d51f26;
+}
+.results a:hover, .routegadget a:hover, .splits a:hover {
+  color: #990000;
+}
+*/
+
+
+
+/*===== CONTACT FORM =====*/
+
+textarea {
+  width: 500px;
+}
+
+.widget h3 {
+  padding-bottom: 10px;
+}
+
+/* =====FOOTER===== */
+#foot {
+  background-color: #222;
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
+footer p, footer ul li {
+  color:white;
+  line-height: 2em;
+}
+
+footer ul li {
+  list-style-type: none;
+}
+
+#logo-foot {
+  margin-bottom: 20px;
+  max-width: 200px;
+}
+
+
+
+/*====== MEDIA QUERIES ======== */
+
+
+
+/* PHONES and PHABLETS*/
+@media(max-width:767px){
+  
+#logo-top-left {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+} 
+.splash h2 {
+  font-size: 1.2em;
+}
+
+*/
+.btn-lg {
+  width: 100%;
+}
+
+#foot {
+  margin-top: 20px;
+}
+
+
+.map-image-md img {
+  display: block;
+  margin: auto;
+  padding: 20px 0px;
+}
+
+.social p {
+  padding: 0px 150px;
+}
+
+.contact-img img {
+  max-width: 300px;
+}
+
+/*.widget h3 {
+  padding-top: 30px;
+}*/
+
+.social-widget {
+  margin-bottom: 100px;
+}
+
+
+.sidebar-widgets {
+  padding-bottom: 20%;
+}
+
+
+} /*-- end xs --*/
+
+
+@media(max-width:530px){
+.social p {
+  padding: 0px;
+}
+
+textarea {
+  width: 90%;
+}
+
+}
+
+
+
+
+
+
+
+/*== TABLETS SM ==*/
+@media(max-width:768px){
+
+.splash-row {
+  margin-top: 0px;
+}
+
+button#lg-sr-btn, button#lg-results-btn {
+  font-size: 1em;
+}
+
+} /*-- end sm --*/
+
+
+/*== SMALL DESKTOP MD == */
+@media(min-width:992px){
+
+.social {
+  padding: 0px 60px;
+}
+
+
+} /*-- end MD --*/
+
+@media(max-width:1199px){
+
+.vol-btn {
+  margin-top: 40px;
+}
+
+}
+
+
+@media(min-width:1200px){
+.social {
+  padding: 0px 30px;
+}
+#footer-menu {
+  padding-left: 40px;
+}
+
+}
