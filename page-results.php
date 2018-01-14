@@ -44,7 +44,7 @@
 			'orderby'    => array( 'meta_value_num' => 'DESC', 'post_date' => 'DESC'),
 			//'order'      => 'DESC',
 			'meta_value'	=> date('Ymd'),
-			'meta_compare'	=> '<',
+			'meta_compare'	=> '<=',
 			'date_query'	=> array(
 				array(
 						'key' => 'date',
