@@ -160,6 +160,8 @@
                 <?php the_post_thumbnail('large'); ?>
             </div>
         <?php endif; ?>
+	  
+  	<?php the_field('volunteer_list'); ?>
        
         <p><?php the_content(); ?></p>
 
