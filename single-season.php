@@ -38,7 +38,7 @@
             </div>
         <?php endif; ?>
 
-        <p class="post-info sm-mrg-top lg-mrg-bottom">Updated on: <?php the_time('F j, Y'); ?></p>
+        <p class="post-info sm-mrg-top lg-mrg-bottom">Updated on: <?php the_modified_time('F j, Y'); ?></p>
        
         <p><?php the_content(); ?></p>
 
