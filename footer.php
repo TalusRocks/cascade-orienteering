@@ -11,6 +11,7 @@
             <p><a href="<?php echo get_permalink(111); ?>">ABOUT</a></p>
             <p><a href="<?php echo get_permalink(113); ?>">CONTACT</a></p>
             <p><a href="http://register.cascadeoc.org/">REGISTRATION</a></p>
+            <p><a href="http://register.wiol.org/">WIOL REGISTRATION</a></p>
             <p><a href="https://drive.google.com/drive/folders/0B29jBY5njVIKSllCM1A5WGx5RWM">Document Library</a></p>
             <p><a href="http://classic.cascadeoc.org/">Old website '09-16</a></p>
             <p><a href="http://www.old.cascadeoc.org/">Older website '00-09</a></p>
