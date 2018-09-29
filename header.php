@@ -45,11 +45,12 @@
               <img id="logo-top-left" class="hidden-xs" src="<?php echo get_stylesheet_directory_uri(); ?>/images/COC-logo-diamond-red.png" alt="<?php echo get_bloginfo('name')?>" />
             </a>
           </div>
-          <div class="col-lg-4 col-lg-offset-6 col-sm-6 col-sm-offset-2 md-mrg-top hidden-xs" id="no-pad">
+          <div class="col-lg-6 col-lg-offset-4 col-sm-8 col-md-6 col-md-offset-2 md-mrg-top hidden-xs" id="no-pad">
             <ul class="nav nav-justified" id="top-nav">
               <li><a href="<?php echo get_permalink(111); ?>">About</a></li>
               <li><a href="<?php echo get_permalink(113); ?>">Contact</a></li>
-              <li><a href="http://register.cascadeoc.org/">Registration</a></li>
+              <li><a href="http://register.wiol.org/">WIOL (School) Registration</a></li>
+              <li><a href="http://register.cascadeoc.org/">General Registration</a></li>
             </ul>
           </div>
         </div>
